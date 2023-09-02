@@ -59,7 +59,7 @@ _Se debe crear el partial en la ruta app>assets>shared>_navbar.html.erb y agrega
             </li>
           <% else %>
             <li class="nav-item">
-              <%= link_to 'Iniciar sesión',  new_user_session_path, class: 'btn btn-outline-success'%>
+              <%= link_to 'Iniciar sesión', new_user_session_path, class:"margen" %>
             </li>
             <li class="nav-item">
               <%= link_to 'Registro',  new_user_registration_path, class: 'btn btn-outline-success'%>
@@ -145,9 +145,7 @@ Actualiza las vistas de Devise:
 
 Finalmente, actualiza las vistas de Devise para mostrar el campo name donde sea necesario.
 
-=========================================================
-==========FIN AGREGAR NAME AL MODELO USER================
-=========================================================
+
 
 
 
