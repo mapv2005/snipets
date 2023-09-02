@@ -1,8 +1,11 @@
 # INSTALAR PSQL
+## Ejecutar el comando
 
+´´´hash
 sudo apt install -y postgresql postgresql-contrib
+´´´
 
-#Instalar cabecera
+## Instalar cabecera
 
 sudo apt install -y libpq-dev
 
