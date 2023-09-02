@@ -113,12 +113,11 @@ En este archivo, hereda de Devise::RegistrationsController y personaliza los mé
 
 Aquí tienes un ejemplo de cómo podría lucir un registrations_controller.rb personalizado:
 
+
+## Define métodos personalizados si es necesario
+
 class RegistrationsController < Devise::RegistrationsController
-  # Puedes personalizar métodos aquí
-
-  private
-
-  # Define métodos personalizados si es necesario
+ private
 end
 
 Asegúrate de que en tu archivo routes.rb esté configurado para utilizar el controlador personalizado de Devise. Debería verse algo como esto:
